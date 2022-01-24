@@ -1,0 +1,24 @@
+{
+  "name": "eslint-testing",
+  "version": "1.0.0",
+  "description": "#### Support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfall/eslint-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rfall/eslint-testing/issues"
+  },
+  "homepage": "https://github.com/rfall/eslint-testing#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.7.0"
+  }
+}
