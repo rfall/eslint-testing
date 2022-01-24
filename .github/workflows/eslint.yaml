@@ -1,11 +1,11 @@
-name: ESLint
-on: push
+name: Lint
+
+on: [push]
+
 jobs:
-  build:
+  eslint:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Install modules
-      run: yarn
-    - name: Run ESLint
-      run: npx run eslint . --ext .ts,.tsx
+      - uses: actions/checkout@v1
+      - uses: stefanoeb/eslint-action@1.0.2
+      
